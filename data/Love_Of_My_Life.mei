@@ -5,9 +5,29 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title />
+                <title authURI ="https://musescore.com/user/17816211/scores/4267466" authority="Musescore">Love Of My Life</title>
+                <title type="subtitle">from "A Night at the Opera"</title>
+                <arranger>nicolastraficante</arranger>
+				        <!--<author>Gabriele Usonyte</author>-->
+				        <composer>Freddie Mercury</composer>
+				        <lyricist>Freddie Mercury</lyricist>
             </titleStmt>
-            <pubStmt></pubStmt>
+            <editionStmt>
+                <title>Freddie Mercury's Love Of My Life</title>
+                <extent type="kBytes">210</extent>
+      			</editionStmt>
+            <pubStmt>
+                <publisher>
+                  <corpName>nicolastraficante</corpName>
+                </publisher>
+                <distributor>
+                  <corpName>Musescore</corpName>
+                </distributor>
+                <date>2017-07-19</date>
+            </pubStmt>
+            <seriesStmt>
+              <title>A Nigth At The Opera</title>
+            </seriesStmt>
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000001995499016">
             <appInfo xml:id="appinfo-0000000991232747">

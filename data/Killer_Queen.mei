@@ -5,9 +5,28 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title>Killer Queen</title>
+                <title authURI="https://musescore.com/user/3585626/scores/4801206">Killer Queen</title>
+				        <arranger>Rodry1827</arranger>
+				        <!--<author>Gabriele Usonyte</author>-->
+				        <composer>Freddie Mercury</composer>
+				        <lyricist>Freddie Mercury</lyricist>
             </titleStmt>
-            <pubStmt></pubStmt>
+            <editionStmt>
+      				<title>Queen's Killer Queen</title>
+              <extent type="kBytes">592</extent>
+      			</editionStmt>
+            <pubStmt>
+                <publisher>
+                  <corpName>Rodry1827</corpName>
+                </publisher>
+                <distributor>
+                  <corpName>Musescore</corpName>
+                </distributor>
+                <date>2017-11-05</date>
+            </pubStmt>
+            <seriesStmt>
+              <title>Sheer Heart Attack</title>
+            </seriesStmt>
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000002131599636">
             <appInfo xml:id="appinfo-0000000617305579">

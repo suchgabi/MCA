@@ -6,8 +6,23 @@
         <fileDesc>
             <titleStmt>
                 <title>Bohemian Rhapsody</title>
+				        <arranger>Joel Gonzalez</arranger>
+				        <!--<author>Gabriele Usonyte</author>-->
+				        <composer>Freddie Mercury</composer>
+				        <lyricist>Freddie Mercury</lyricist>
+                <respStmt>
+                  <resp>Transcribed by:</resp>
+                  <persName>Gabriele Usonyte</persName>
+                </respStmt>
             </titleStmt>
-            <pubStmt></pubStmt>
+			      <editionStmt>
+				      <title>Freddie Mercury's Bohemian Rhapsody</title>
+              <date>1975</date>
+              <extent type="Mbytes">1.33</extent>
+			      </editionStmt>
+            <seriesStmt>
+              <title>A Nigth At The Opera</title>
+            </seriesStmt>
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000001363949925">
             <appInfo xml:id="appinfo-0000001385771663">
