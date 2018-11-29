@@ -5,14 +5,14 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title authURI="https://musescore.com/user/3585626/scores/4801206">Killer Queen</title>
+                <title>Killer Queen</title>
 				        <arranger>Rodry1827</arranger>
 				        <!--<author>Gabriele Usonyte</author>-->
-				        <composer>Freddie Mercury</composer>
+				        <composer xml:id="composer" authURI="http://viaf.org.viaf/71578767" authority="VIAF">Freddie Mercury</composer>
 				        <lyricist>Freddie Mercury</lyricist>
             </titleStmt>
             <editionStmt>
-      				<title>Queen's Killer Queen</title>
+      				<title authURI="url">Queen's Killer Queen</title>
               <extent type="kBytes">592</extent>
       			</editionStmt>
             <pubStmt>

@@ -45,6 +45,7 @@
           if (xhr.status === OK) {
             var parser = new DOMParser()
             var meiDoc = parser.parseFromString(xhr.responseText,"text/xml")
+            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='bohemianTitle']").textContent + "</p>"
             /* If your element has an authURI attribute, copy the folloiwng line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
             document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='MY-XML-ID']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='MY-XML-ID']").textContent + "</p></a>"
            */

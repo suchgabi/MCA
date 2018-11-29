@@ -5,7 +5,7 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title>Bohemian Rhapsody</title>
+                <title xml:id="bohemianTitle">Bohemian Rhapsody</title>
 				        <arranger>Joel Gonzalez</arranger>
 				        <!--<author>Gabriele Usonyte</author>-->
 				        <composer>Freddie Mercury</composer>
