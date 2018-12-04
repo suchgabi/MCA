@@ -6,13 +6,13 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="bohemianTitle">Bohemian Rhapsody</title>
-				        <arranger>Joel Gonzalez</arranger>
-				        <!--<author>Gabriele Usonyte</author>-->
+				        <arranger xml:id="arranger">Joel Gonzalez</arranger>
+				        <author xml:id="author" authURI="http://viaf.org/viaf/71578767" authority="VIAF">Freddie Mercury</author>
 				        <composer>Freddie Mercury</composer>
 				        <lyricist>Freddie Mercury</lyricist>
                 <respStmt>
                   <resp>Transcribed by:</resp>
-                  <persName>Gabriele Usonyte</persName>
+                  <persName xml:id="transcriber">Gabriele Usonyte</persName>
                 </respStmt>
             </titleStmt>
 			      <editionStmt>

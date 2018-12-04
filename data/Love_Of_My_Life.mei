@@ -5,10 +5,10 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title authURI ="https://musescore.com/user/17816211/scores/4267466" authority="Musescore">Love Of My Life</title>
-                <title type="subtitle">from "A Night at the Opera"</title>
+                <title xml:id="loveTitle">Love Of My Life</title>
+                <title type="subtitle" xml:id="subtitle">from "A Night at the Opera"</title>
                 <arranger>nicolastraficante</arranger>
-				        <!--<author>Gabriele Usonyte</author>-->
+				        <author xml:id="author" authURI="http://viaf.org/viaf/71578767" authority="VIAF">Freddie Mercury</author>
 				        <composer>Freddie Mercury</composer>
 				        <lyricist>Freddie Mercury</lyricist>
             </titleStmt>

@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+
+<feature_vector_file>
+
+   <comments></comments>
+
+	<data_set>
+		<data_set_id>I:\MUSIC\week9 taksk2\Killer_Queen.mid</data_set_id>
+		<feature>
+			<name>Number of Pitches</name>
+			<v>5.6E1</v>
+		</feature>
+		<feature>
+			<name>Number of Pitch Classes</name>
+			<v>1.2E1</v>
+		</feature>
+		<feature>
+			<name>Range</name>
+			<v>6.2E1</v>
+		</feature>
+		<feature>
+			<name>Importance of Bass Register</name>
+			<v>3.109E-1</v>
+		</feature>
+		<feature>
+			<name>Importance of Middle Register</name>
+			<v>4.642E-1</v>
+		</feature>
+		<feature>
+			<name>Importance of High Register</name>
+			<v>2.249E-1</v>
+		</feature>
+		<feature>
+			<name>Strong Tonal Centres</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Mean Pitch</name>
+			<v>5.971E1</v>
+		</feature>
+		<feature>
+			<name>Mean Pitch Class</name>
+			<v>5.441E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Pitch</name>
+			<v>6.7E1</v>
+		</feature>
+		<feature>
+			<name>Most Common Pitch Class</name>
+			<v>7E0</v>
+		</feature>
+		<feature>
+			<name>Interval Between Most Prevalent Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Pitch Variability</name>
+			<v>1.472E1</v>
+		</feature>
+		<feature>
+			<name>Major or Minor</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Melodic Interval</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Repeated Notes</name>
+			<v>2.144E-1</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>

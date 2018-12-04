@@ -5,14 +5,14 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title>Killer Queen</title>
-				        <arranger>Rodry1827</arranger>
-				        <!--<author>Gabriele Usonyte</author>-->
-				        <composer xml:id="composer" authURI="http://viaf.org.viaf/71578767" authority="VIAF">Freddie Mercury</composer>
+                <title xml:id="killerTittle">Killer Queen</title>
+				        <arranger xml:id="arranger">Rodry1827</arranger>
+				        <author xml:id="author" authURI="http://viaf.org.viaf/71578767" authority="VIAF">Freddie Mercury</author>
+				        <composer>Freddie Mercury</composer>
 				        <lyricist>Freddie Mercury</lyricist>
             </titleStmt>
             <editionStmt>
-      				<title authURI="url">Queen's Killer Queen</title>
+      				<title>Queen's Killer Queen</title>
               <extent type="kBytes">592</extent>
       			</editionStmt>
             <pubStmt>

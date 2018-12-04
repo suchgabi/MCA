@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+
+<feature_vector_file>
+
+   <comments></comments>
+
+	<data_set>
+		<data_set_id>I:\MUSIC\week9 taksk2\Love_Of_My_Life.mid</data_set_id>
+		<feature>
+			<name>Number of Pitches</name>
+			<v>3.8E1</v>
+		</feature>
+		<feature>
+			<name>Number of Pitch Classes</name>
+			<v>1.1E1</v>
+		</feature>
+		<feature>
+			<name>Range</name>
+			<v>5.2E1</v>
+		</feature>
+		<feature>
+			<name>Importance of Bass Register</name>
+			<v>1.697E-1</v>
+		</feature>
+		<feature>
+			<name>Importance of Middle Register</name>
+			<v>7.924E-1</v>
+		</feature>
+		<feature>
+			<name>Importance of High Register</name>
+			<v>3.792E-2</v>
+		</feature>
+		<feature>
+			<name>Strong Tonal Centres</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Mean Pitch</name>
+			<v>6.1E1</v>
+		</feature>
+		<feature>
+			<name>Mean Pitch Class</name>
+			<v>5.054E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Pitch</name>
+			<v>6.5E1</v>
+		</feature>
+		<feature>
+			<name>Most Common Pitch Class</name>
+			<v>5E0</v>
+		</feature>
+		<feature>
+			<name>Interval Between Most Prevalent Pitches</name>
+			<v>5E0</v>
+		</feature>
+		<feature>
+			<name>Pitch Variability</name>
+			<v>8.211E0</v>
+		</feature>
+		<feature>
+			<name>Major or Minor</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Melodic Interval</name>
+			<v>5E0</v>
+		</feature>
+		<feature>
+			<name>Repeated Notes</name>
+			<v>1.043E-1</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>
