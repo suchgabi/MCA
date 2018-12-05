@@ -5,9 +5,24 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title>Bohemian Rhapsody</title>
+                <title xml:id="bohemianTitle">Bohemian Rhapsody</title>
+				        <arranger xml:id="arranger">Joel Gonzalez</arranger>
+				        <author xml:id="author" authURI="http://viaf.org/viaf/71578767" authority="VIAF">Freddie Mercury</author>
+				        <composer>Freddie Mercury</composer>
+				        <lyricist>Freddie Mercury</lyricist>
+                <respStmt>
+                  <resp>Transcribed by:</resp>
+                  <persName xml:id="transcriber">Gabriele Usonyte</persName>
+                </respStmt>
             </titleStmt>
-            <pubStmt></pubStmt>
+			      <editionStmt>
+				      <title>Freddie Mercury's Bohemian Rhapsody</title>
+              <date>1975</date>
+              <extent type="Mbytes">1.33</extent>
+			      </editionStmt>
+            <seriesStmt>
+              <title>A Nigth At The Opera</title>
+            </seriesStmt>
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000001363949925">
             <appInfo xml:id="appinfo-0000001385771663">
@@ -80,9 +95,9 @@
                                 <layer xml:id="layer-0000000805103742" n="1">
                                     <rest xml:id="rest-0000001126637769" dur="8" />
                                     <beam xml:id="beam-0000001759320702">
-                                        <!--[this line was modified]--><note xml:id="note-0000001412058051" dur="16" oct="4" pname="a" stem.dir="up" accid.ges="s" />
-                                        <!--[this line was modified]--><note xml:id="note-0000001005128876" dur="4" oct="4" pname="c" stem.dir="up" accid.ges="n" />
-                                        <!--[this line was modified]--><note xml:id="note-0000000000270452" dur="2" oct="4" pname="e" stem.dir="down" accid.ges="f" />
+                                        <!--@oct, @pname, @stem.dir, @accid.ges changed--><note xml:id="note-0000001412058051" dur="8" oct="5" pname="c" stem.dir="up" accid.ges="n" /><!--changes-->
+                                        <!--@oct, @pname, @stem.dir, @accid.ges changed--><note xml:id="note-0000001005128876" dur="8" oct="6" pname="d" stem.dir="down" accid.ges="f" />
+                                        <!--@oct, @pname, @stem.dir, @accid.ges changed--><note xml:id="note-0000000000270452" dur="8" oct="3" pname="e" stem.dir="up" accid.ges="s" />
                                     </beam>
                                     <note xml:id="note-0000000083172524" dur="4" oct="4" pname="b" stem.dir="down" accid.ges="f" />
                                     <note xml:id="note-0000000827741670" dur="4" oct="4" pname="b" stem.dir="down" accid.ges="f" />
@@ -92,9 +107,9 @@
                                 <layer xml:id="layer-0000000808371704" n="1">
                                     <rest xml:id="rest-0000001907415701" dur="8" />
                                     <beam xml:id="beam-0000001715177820">
-                                        <note xml:id="note-0000000995021417" dur="8" oct="4" pname="g" stem.dir="up" />
-                                        <note xml:id="note-0000001872364440" dur="8" oct="4" pname="g" stem.dir="up" />
-                                        <note xml:id="note-0000000356601876" dur="8" oct="4" pname="g" stem.dir="up" />
+                                        <!--@oct, @pname, @stem.dir, @accid.ges changes--><note xml:id="note-0000000995021417" dur="8" oct="1" pname="a" stem.dir="up" />
+                                        <!--@oct, @pname, @stem.dir, @accid.ges changes--><note xml:id="note-0000001872364440" dur="8" oct="5" pname="d" stem.dir="down" />
+                                        <!--@oct, @pname, @stem.dir, @accid.ges changes--><note xml:id="note-0000000356601876" dur="8" oct="2" pname="b" stem.dir="down" />
                                     </beam>
                                     <note xml:id="note-0000000144794343" dur="4" oct="4" pname="g" stem.dir="up" />
                                     <note xml:id="note-0000000423615352" dur="4" oct="4" pname="g" stem.dir="up" />
