@@ -46,9 +46,9 @@
             var parser = new DOMParser()
             var meiDoc = parser.parseFromString(xhr.responseText,"text/xml")
             document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='bohemianTitle']").textContent + "</p>"
+            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='subtitle']").textContent + "</p>"
             document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='author']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='author']").textContent + "</p></a>"
             document.querySelector("#meta").innerHTML += "<p>" + "Arranged by: " + meiDoc.querySelector("[*|id='arranger']").textContent + "</p>"
-            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='subtitle']").textContent + "</p>"
             document.querySelector("#meta").innerHTML += "<p>" + "Transcribed by: " + meiDoc.querySelector("[*|id='transcriber']").textContent + "</p>"
 
             /* If your element has an authURI attribute, copy the folloiwng line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
