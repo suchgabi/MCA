@@ -5,8 +5,8 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title xml:id="killerTittle">Killer Queen</title>
-                <title type="subtitle" xml:id="subtitle">from "A Night at the Opera"</title>
+                <title xml:id="killerTitle">Killer Queen</title>
+                <title type="subtitle" xml:id="subtitle">from "Sheer Heart Attack"</title>
 				        <arranger xml:id="arranger">Rodry1827</arranger>
 				        <author xml:id="author" authURI="http://viaf.org.viaf/71578767" authority="VIAF">Freddie Mercury</author>
 				        <composer>Freddie Mercury</composer>
@@ -14,7 +14,7 @@
             </titleStmt>
             <editionStmt>
       				<title>Queen's Killer Queen</title>
-              <extent type="kBytes">592</extent>
+              <extent type="MBytes">0.592</extent>
       			</editionStmt>
             <pubStmt>
                 <publisher>
