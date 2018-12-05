@@ -7,7 +7,7 @@
             <titleStmt>
                 <title xml:id="loveTitle">Love Of My Life</title>
                 <title type="subtitle" xml:id="subtitle">from "A Night at the Opera"</title>
-                <arranger>nicolastraficante</arranger>
+                <arranger xml:id="arranger">nicolastraficante</arranger>
 				        <author xml:id="author" authURI="http://viaf.org/viaf/71578767" authority="VIAF">Freddie Mercury</author>
 				        <composer>Freddie Mercury</composer>
 				        <lyricist>Freddie Mercury</lyricist>

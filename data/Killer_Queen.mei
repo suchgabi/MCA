@@ -6,6 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="killerTittle">Killer Queen</title>
+                <title type="subtitle" xml:id="subtitle">from "A Night at the Opera"</title>
 				        <arranger xml:id="arranger">Rodry1827</arranger>
 				        <author xml:id="author" authURI="http://viaf.org.viaf/71578767" authority="VIAF">Freddie Mercury</author>
 				        <composer>Freddie Mercury</composer>

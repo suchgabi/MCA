@@ -15,7 +15,7 @@
 
     <div id="content">
       <!-- ADD YOUR HTML CONTENT HERE! -->
-      <h1>My project</h1>
+      <h1>Track No. 1</h1>
       <h2>Metadata</h2>
       <p id="meta"></p>
 
@@ -47,7 +47,8 @@
             var meiDoc = parser.parseFromString(xhr.responseText,"text/xml")
             document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='loveTitle']").textContent + "</p>"
             document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='author']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='author']").textContent + "</p></a>"
-            document.querySelector("#meta").innerHTML += "<p>Arranged by:" + meiDoc.querySelector("[*|id='arranger']").textContent + "</p>"
+            document.querySelector("#meta").innerHTML += "<p>" + "Arranged by:" + meiDoc.querySelector("[*|id='arranger']").textContent + "</p>"
+            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='subtitle']").textContent + "</p>"
             /* If your element has an authURI attribute, copy the folloiwng line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
             document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='MY-XML-ID']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='MY-XML-ID']").textContent + "</p></a>"
            */
